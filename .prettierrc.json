@@ -1,0 +1,30 @@
+{
+	"semi": true,
+	"tabWidth": 2,
+	"printWidth": 140,
+	"singleQuote": true,
+	"quoteProps": "consistent",
+	"bracketSpacing": true,
+	"trailingComma": "none",
+	"endOfLine": "lf",
+	"overrides": [
+		{
+			"files": [
+				"*.md"
+			],
+			"options": {
+				"useTabs": false,
+				"tabWidth": 4
+			}
+		},
+		{
+			"files": [
+				"*.yml"
+			],
+			"options": {
+				"useTabs": false,
+				"tabWidth": 2
+			}
+		}
+	]
+}
